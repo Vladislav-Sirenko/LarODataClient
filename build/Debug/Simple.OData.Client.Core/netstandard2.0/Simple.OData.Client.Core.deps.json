@@ -1,0 +1,142 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "c98c19fcf447cfad061c213b3489f964e2063831"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Simple.OData.Client.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.Data.Edm": "5.8.3",
+          "Microsoft.OData.Core": "7.5.2",
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "Simple.OData.Client.Core.dll": {}
+        }
+      },
+      "Microsoft.Data.Edm/5.8.3": {
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Data.Edm.dll": {
+            "assemblyVersion": "5.8.3.0",
+            "fileVersion": "5.8.3.63048"
+          }
+        },
+        "resources": {
+          "lib/netstandard1.1/de/Microsoft.Data.Edm.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard1.1/es/Microsoft.Data.Edm.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard1.1/fr/Microsoft.Data.Edm.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard1.1/it/Microsoft.Data.Edm.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard1.1/ja/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard1.1/ko/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard1.1/ru/Microsoft.Data.Edm.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard1.1/zh-Hans/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard1.1/zh-Hant/Microsoft.Data.Edm.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.OData.Core/7.5.2": {
+        "dependencies": {
+          "Microsoft.OData.Edm": "7.5.2",
+          "Microsoft.Spatial": "7.5.2"
+        },
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.OData.Core.dll": {
+            "assemblyVersion": "7.5.2.21120",
+            "fileVersion": "7.5.2.21120"
+          }
+        }
+      },
+      "Microsoft.OData.Edm/7.5.2": {
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.OData.Edm.dll": {
+            "assemblyVersion": "7.5.2.21120",
+            "fileVersion": "7.5.2.21120"
+          }
+        }
+      },
+      "Microsoft.Spatial/7.5.2": {
+        "runtime": {
+          "lib/netstandard1.1/Microsoft.Spatial.dll": {
+            "assemblyVersion": "7.5.2.21120",
+            "fileVersion": "7.5.2.21120"
+          }
+        }
+      },
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Simple.OData.Client.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Data.Edm/5.8.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8Ji0n7S+s5gHrtc+sVnWQbd7DwRW5oAI/SaKk64T5R/JcUvDau7cMyV0B1mXagtzCUnzBadJkKEodQWGY1GxkQ==",
+      "path": "microsoft.data.edm/5.8.3",
+      "hashPath": "microsoft.data.edm.5.8.3.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.OData.Core/7.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UhyqMhJkL2S9ejbcDjFXgi6fsQ1v6ICYZQfl2sbEutYY1Mtqw2tVPkECQaKnD7ng2NOqVP6W5Jlp1q0j5/+ixQ==",
+      "path": "microsoft.odata.core/7.5.2",
+      "hashPath": "microsoft.odata.core.7.5.2.nupkg.sha512"
+    },
+    "Microsoft.OData.Edm/7.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ujw48Yd5GtPcjK8mZiUfAl78DqjX9FUibOFOYDvRr5mS4wHxERmgrsRjhOppJxVxjDjPSrlHsIh3sIczx4uaA==",
+      "path": "microsoft.odata.edm/7.5.2",
+      "hashPath": "microsoft.odata.edm.7.5.2.nupkg.sha512"
+    },
+    "Microsoft.Spatial/7.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5oMl29dZNQrvTEvjgJHnFDzWsvDSHlyBhxuMq4t2gt3s2uJ7AO9IvcqZbryr7hpX3C8xLmDZl7WfWF+0UzKgqg==",
+      "path": "microsoft.spatial/7.5.2",
+      "hashPath": "microsoft.spatial.7.5.2.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    }
+  }
+}
